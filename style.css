@@ -1,0 +1,63 @@
+body{
+
+  background-color: black;
+}
+div{
+  margin: 0 auto;
+  width: 40px;
+  height:40px;
+  transition-property:all;
+  transition-delay:0.1s;
+  transition-duration:1s;
+  transition-timing-function: ease;
+}
+#one{
+  background-color: red;
+}
+#one:hover{
+  width: 500px;
+  height:500px;
+  border-radius:50%;
+  background-color: green;
+}
+#two{
+  background-color: yellow;
+}
+#two:hover{
+  width: 500px;
+  height: 500px;
+  border-radius:15em;
+  background-color: aqua;
+}
+#three{
+  background-color: blue;
+}
+#three:hover{
+  width: 500px;
+  height: 500px;
+  border-radius:1rem;
+}
+#four{
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+
+#four:hover{
+  width:400px;
+  height: 200px;
+  margin-top:100px;
+  margin:0 auto;
+  background-color: aquamarine;
+  
+}
+p{
+  display: inline-block;
+  font-size: 0.1rem;
+  transition-property: all;
+  transition-duration:1s;
+
+}
+p:hover{
+  
+}
