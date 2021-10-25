@@ -1,7 +1,4 @@
-body{
 
-  background-color: black;
-}
 div{
   margin: 0 auto;
   width: 40px;
@@ -15,6 +12,7 @@ div{
   background-color: red;
 }
 #one:hover{
+
   width: 500px;
   height:500px;
   border-radius:50%;
@@ -53,11 +51,16 @@ div{
 }
 p{
   display: inline-block;
-  font-size: 0.1rem;
+  position:fixed;
+  font-size: 0.5rem;
   transition-property: all;
   transition-duration:1s;
 
 }
 p:hover{
+  width: 80px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
   
 }
